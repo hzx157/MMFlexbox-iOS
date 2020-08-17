@@ -1,0 +1,22 @@
+PODS:
+  - SDWebImage (5.8.0):
+    - SDWebImage/Core (= 5.8.0)
+  - SDWebImage/Core (5.8.0)
+  - Yoga (1.14.0)
+
+DEPENDENCIES:
+  - SDWebImage
+  - Yoga (= 1.14.0)
+
+SPEC REPOS:
+  trunk:
+    - SDWebImage
+    - Yoga
+
+SPEC CHECKSUMS:
+  SDWebImage: 84000f962cbfa70c07f19d2234cbfcf5d779b5dc
+  Yoga: cff67a400f6b74dc38eb0bad4f156673d9aa980c
+
+PODFILE CHECKSUM: 7464e1e62382a2db1b1e5502dbe53784f3a7e06f
+
+COCOAPODS: 1.9.1

@@ -1,0 +1,6 @@
+framework module Pods_MMFlexboxDemo {
+  umbrella header "Pods-MMFlexboxDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

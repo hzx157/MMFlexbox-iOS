@@ -1,0 +1,1250 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04491DE724EA9C1700B03AA7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491DE624EA9C1700B03AA7 /* AppDelegate.m */; };
+		04491DEA24EA9C1700B03AA7 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491DE924EA9C1700B03AA7 /* SceneDelegate.m */; };
+		04491DED24EA9C1700B03AA7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491DEC24EA9C1700B03AA7 /* ViewController.m */; };
+		04491DF024EA9C1700B03AA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04491DEE24EA9C1700B03AA7 /* Main.storyboard */; };
+		04491DF224EA9C1800B03AA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04491DF124EA9C1800B03AA7 /* Assets.xcassets */; };
+		04491DF524EA9C1800B03AA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04491DF324EA9C1800B03AA7 /* LaunchScreen.storyboard */; };
+		04491DF824EA9C1800B03AA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491DF724EA9C1800B03AA7 /* main.m */; };
+		04491E0224EA9C1800B03AA7 /* MMFlexboxDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491E0124EA9C1800B03AA7 /* MMFlexboxDemoTests.m */; };
+		04491E0D24EA9C1800B03AA7 /* MMFlexboxDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491E0C24EA9C1800B03AA7 /* MMFlexboxDemoUITests.m */; };
+		04491E7F24EA9D4500B03AA7 /* FlexTouchMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491E1E24EA9D4200B03AA7 /* FlexTouchMaskView.m */; };
+		04491E8024EA9D4500B03AA7 /* FlexStyleMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491E2024EA9D4200B03AA7 /* FlexStyleMgr.m */; };
+		04491E8124EA9D4500B03AA7 /* FlexBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491E2124EA9D4200B03AA7 /* FlexBaseVC.m */; };
+		04491E8224EA9D4500B03AA7 /* FlexTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491E2524EA9D4200B03AA7 /* FlexTextView.m */; };
+		04491E8324EA9D4500B03AA7 /* FlexFrameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491E2624EA9D4200B03AA7 /* FlexFrameView.m */; };
+		04491E8424EA9D4500B03AA7 /* FlexNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491E2724EA9D4200B03AA7 /* FlexNode.m */; };
+		04491E8524EA9D4500B03AA7 /* YGLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491E2C24EA9D4200B03AA7 /* YGLayout.m */; };
+		04491E8624EA9D4500B03AA7 /* UIView+Yoga.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491E2D24EA9D4200B03AA7 /* UIView+Yoga.m */; };
+		04491E8724EA9D4500B03AA7 /* FlexContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491E2E24EA9D4200B03AA7 /* FlexContainerView.m */; };
+		04491E8824EA9D4500B03AA7 /* FlexCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491E3024EA9D4300B03AA7 /* FlexCollectionView.m */; };
+		04491E8A24EA9D4500B03AA7 /* FlexTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491E3624EA9D4300B03AA7 /* FlexTouchView.m */; };
+		04491E8B24EA9D4500B03AA7 /* FlexCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491E3724EA9D4300B03AA7 /* FlexCollectionCell.m */; };
+		04491E8C24EA9D4500B03AA7 /* FlexXmlBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491E3A24EA9D4300B03AA7 /* FlexXmlBaseView.m */; };
+		04491E8D24EA9D4500B03AA7 /* FlexBaseTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491E3B24EA9D4300B03AA7 /* FlexBaseTableCell.m */; };
+		04491E8E24EA9D4500B03AA7 /* FlexUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491E3C24EA9D4300B03AA7 /* FlexUtils.m */; };
+		04491E8F24EA9D4500B03AA7 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491E3F24EA9D4300B03AA7 /* GDataXMLNode.m */; };
+		04491E9024EA9D4500B03AA7 /* FlexSetPreviewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491E4124EA9D4300B03AA7 /* FlexSetPreviewVC.m */; };
+		04491E9124EA9D4500B03AA7 /* FlexRootView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491E4224EA9D4300B03AA7 /* FlexRootView.m */; };
+		04491E9224EA9D4500B03AA7 /* UIProgressView+Flex.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491E4624EA9D4300B03AA7 /* UIProgressView+Flex.m */; };
+		04491E9324EA9D4500B03AA7 /* UIScrollView+Flex.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491E4824EA9D4300B03AA7 /* UIScrollView+Flex.m */; };
+		04491E9424EA9D4500B03AA7 /* UITextField+Flex.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491E4A24EA9D4300B03AA7 /* UITextField+Flex.m */; };
+		04491E9524EA9D4500B03AA7 /* UIPickerView+Flex.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491E4B24EA9D4300B03AA7 /* UIPickerView+Flex.m */; };
+		04491E9624EA9D4500B03AA7 /* UIDatePicker+Flex.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491E4E24EA9D4300B03AA7 /* UIDatePicker+Flex.m */; };
+		04491E9724EA9D4500B03AA7 /* UIControl+Flex.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491E4F24EA9D4300B03AA7 /* UIControl+Flex.m */; };
+		04491E9824EA9D4500B03AA7 /* UIToolbar+Flex.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491E5024EA9D4300B03AA7 /* UIToolbar+Flex.m */; };
+		04491E9924EA9D4500B03AA7 /* UIImageView+Flex.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491E5424EA9D4400B03AA7 /* UIImageView+Flex.m */; };
+		04491E9A24EA9D4500B03AA7 /* UILabel+Flex.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491E5524EA9D4400B03AA7 /* UILabel+Flex.m */; };
+		04491E9B24EA9D4500B03AA7 /* UIButton+Flex.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491E5624EA9D4400B03AA7 /* UIButton+Flex.m */; };
+		04491E9C24EA9D4500B03AA7 /* UISearchBar+Flex.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491E5A24EA9D4400B03AA7 /* UISearchBar+Flex.m */; };
+		04491E9D24EA9D4500B03AA7 /* UISwitch+Flex.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491E5B24EA9D4400B03AA7 /* UISwitch+Flex.m */; };
+		04491E9E24EA9D4500B03AA7 /* UISegmentedControl+Flex.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491E5E24EA9D4400B03AA7 /* UISegmentedControl+Flex.m */; };
+		04491E9F24EA9D4500B03AA7 /* UIActivityIndicatorView+Flex.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491E6024EA9D4400B03AA7 /* UIActivityIndicatorView+Flex.m */; };
+		04491EA024EA9D4500B03AA7 /* UITextView+Flex.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491E6224EA9D4400B03AA7 /* UITextView+Flex.m */; };
+		04491EA124EA9D4500B03AA7 /* UITabBar+Flex.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491E6324EA9D4400B03AA7 /* UITabBar+Flex.m */; };
+		04491EA224EA9D4500B03AA7 /* UIView+Flex.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491E6524EA9D4400B03AA7 /* UIView+Flex.m */; };
+		04491EA324EA9D4500B03AA7 /* UISlider+Flex.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491E6824EA9D4400B03AA7 /* UISlider+Flex.m */; };
+		04491EA424EA9D4500B03AA7 /* UIStepper+Flex.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491E6924EA9D4400B03AA7 /* UIStepper+Flex.m */; };
+		04491EA524EA9D4500B03AA7 /* UIPageControl+Flex.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491E6A24EA9D4400B03AA7 /* UIPageControl+Flex.m */; };
+		04491EA624EA9D4500B03AA7 /* FlexHttpVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491E6F24EA9D4400B03AA7 /* FlexHttpVC.m */; };
+		04491EA724EA9D4500B03AA7 /* FlexModalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491E7024EA9D4400B03AA7 /* FlexModalView.m */; };
+		04491EA824EA9D4500B03AA7 /* FlexLayoutViewerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491E7124EA9D4400B03AA7 /* FlexLayoutViewerVC.m */; };
+		04491EA924EA9D4500B03AA7 /* FlexScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491E7224EA9D4400B03AA7 /* FlexScrollView.m */; };
+		04491EAA24EA9D4500B03AA7 /* FlexCustomBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491E7524EA9D4400B03AA7 /* FlexCustomBaseView.m */; };
+		04491EAB24EA9D4500B03AA7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04491E7824EA9D4400B03AA7 /* Localizable.strings */; };
+		04491EAC24EA9D4500B03AA7 /* FlexLayoutViewerVC.xml in Resources */ = {isa = PBXBuildFile; fileRef = 04491E7A24EA9D4400B03AA7 /* FlexLayoutViewerVC.xml */; };
+		04491EAD24EA9D4500B03AA7 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 04491E7B24EA9D4400B03AA7 /* .gitkeep */; };
+		04491EAE24EA9D4500B03AA7 /* FlexHttpVC.xml in Resources */ = {isa = PBXBuildFile; fileRef = 04491E7D24EA9D4500B03AA7 /* FlexHttpVC.xml */; };
+		04491EAF24EA9D4500B03AA7 /* FlexSetPreviewVC.xml in Resources */ = {isa = PBXBuildFile; fileRef = 04491E7E24EA9D4500B03AA7 /* FlexSetPreviewVC.xml */; };
+		04491EB124EAA15C00B03AA7 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 04491EB024EAA15B00B03AA7 /* libc++.tbd */; };
+		04491ED124EAA1DA00B03AA7 /* TestCollectionViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491EB324EAA1D200B03AA7 /* TestCollectionViewVC.m */; };
+		04491ED224EAA1DA00B03AA7 /* DemoFlexVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491EB424EAA1D300B03AA7 /* DemoFlexVC.m */; };
+		04491ED324EAA1DA00B03AA7 /* TestFrameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491EB524EAA1D400B03AA7 /* TestFrameView.m */; };
+		04491ED424EAA1DA00B03AA7 /* TextViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491EB924EAA1D400B03AA7 /* TextViewVC.m */; };
+		04491ED524EAA1DA00B03AA7 /* TestLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491EBE24EAA1D600B03AA7 /* TestLoginVC.m */; };
+		04491ED624EAA1DA00B03AA7 /* TestTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491EC124EAA1D600B03AA7 /* TestTableCell.m */; };
+		04491ED724EAA1DA00B03AA7 /* AttachmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491EC324EAA1D700B03AA7 /* AttachmentView.m */; };
+		04491ED824EAA1DA00B03AA7 /* TestCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491EC424EAA1D700B03AA7 /* TestCollectionCell.m */; };
+		04491ED924EAA1DA00B03AA7 /* TestModalVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491EC524EAA1D700B03AA7 /* TestModalVC.m */; };
+		04491EDA24EAA1DA00B03AA7 /* TestTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491EC724EAA1D800B03AA7 /* TestTableVC.m */; };
+		04491EDB24EAA1DB00B03AA7 /* TestScrollVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491EC824EAA1D800B03AA7 /* TestScrollVC.m */; };
+		04491EDC24EAA1DB00B03AA7 /* FrameVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491EC924EAA1D800B03AA7 /* FrameVC.m */; };
+		04491EDD24EAA1DB00B03AA7 /* ControlsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491ECC24EAA1D900B03AA7 /* ControlsVC.m */; };
+		04491EDE24EAA1DB00B03AA7 /* TestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491ECF24EAA1DA00B03AA7 /* TestVC.m */; };
+		04491EDF24EAA1DB00B03AA7 /* TestXmlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491ED024EAA1DA00B03AA7 /* TestXmlView.m */; };
+		04491EFB24EAA1FE00B03AA7 /* TestTableCell.xml in Resources */ = {isa = PBXBuildFile; fileRef = 04491EE124EAA1F700B03AA7 /* TestTableCell.xml */; };
+		04491EFC24EAA1FE00B03AA7 /* TestCollectionCell.xml in Resources */ = {isa = PBXBuildFile; fileRef = 04491EE224EAA1F700B03AA7 /* TestCollectionCell.xml */; };
+		04491EFD24EAA1FE00B03AA7 /* addnewtype@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04491EE324EAA1F700B03AA7 /* addnewtype@2x.png */; };
+		04491EFE24EAA1FE00B03AA7 /* TestModalVC.xml in Resources */ = {isa = PBXBuildFile; fileRef = 04491EE424EAA1F800B03AA7 /* TestModalVC.xml */; };
+		04491EFF24EAA1FE00B03AA7 /* TestFrameView.xml in Resources */ = {isa = PBXBuildFile; fileRef = 04491EE524EAA1F800B03AA7 /* TestFrameView.xml */; };
+		04491F0024EAA1FE00B03AA7 /* test.xml in Resources */ = {isa = PBXBuildFile; fileRef = 04491EE624EAA1F900B03AA7 /* test.xml */; };
+		04491F0124EAA1FE00B03AA7 /* batchcheck@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04491EE724EAA1F900B03AA7 /* batchcheck@2x.png */; };
+		04491F0224EAA1FE00B03AA7 /* ControlsVC.xml in Resources */ = {isa = PBXBuildFile; fileRef = 04491EE824EAA1F900B03AA7 /* ControlsVC.xml */; };
+		04491F0324EAA1FE00B03AA7 /* select@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04491EE924EAA1FA00B03AA7 /* select@2x.png */; };
+		04491F0424EAA1FE00B03AA7 /* FlexViewController.xml in Resources */ = {isa = PBXBuildFile; fileRef = 04491EEA24EAA1FA00B03AA7 /* FlexViewController.xml */; };
+		04491F0524EAA1FE00B03AA7 /* arrow_right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04491EEB24EAA1FA00B03AA7 /* arrow_right@2x.png */; };
+		04491F0624EAA1FE00B03AA7 /* AttachmentView.xml in Resources */ = {isa = PBXBuildFile; fileRef = 04491EEC24EAA1FA00B03AA7 /* AttachmentView.xml */; };
+		04491F0724EAA1FE00B03AA7 /* TestXmlView.xml in Resources */ = {isa = PBXBuildFile; fileRef = 04491EED24EAA1FA00B03AA7 /* TestXmlView.xml */; };
+		04491F0824EAA1FE00B03AA7 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 04491EEE24EAA1FB00B03AA7 /* splash.png */; };
+		04491F0924EAA1FE00B03AA7 /* TestCollectionViewVC.xml in Resources */ = {isa = PBXBuildFile; fileRef = 04491EEF24EAA1FB00B03AA7 /* TestCollectionViewVC.xml */; };
+		04491F0A24EAA1FE00B03AA7 /* TextViewVC.xml in Resources */ = {isa = PBXBuildFile; fileRef = 04491EF024EAA1FB00B03AA7 /* TextViewVC.xml */; };
+		04491F0B24EAA1FE00B03AA7 /* TableHeader.xml in Resources */ = {isa = PBXBuildFile; fileRef = 04491EF124EAA1FB00B03AA7 /* TableHeader.xml */; };
+		04491F0C24EAA1FE00B03AA7 /* return@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04491EF224EAA1FB00B03AA7 /* return@2x.png */; };
+		04491F0D24EAA1FE00B03AA7 /* FrameVC.xml in Resources */ = {isa = PBXBuildFile; fileRef = 04491EF324EAA1FC00B03AA7 /* FrameVC.xml */; };
+		04491F0E24EAA1FE00B03AA7 /* TestScrollVC.xml in Resources */ = {isa = PBXBuildFile; fileRef = 04491EF424EAA1FC00B03AA7 /* TestScrollVC.xml */; };
+		04491F0F24EAA1FE00B03AA7 /* alignItems.xml in Resources */ = {isa = PBXBuildFile; fileRef = 04491EF524EAA1FC00B03AA7 /* alignItems.xml */; };
+		04491F1024EAA1FE00B03AA7 /* system.style in Resources */ = {isa = PBXBuildFile; fileRef = 04491EF624EAA1FD00B03AA7 /* system.style */; };
+		04491F1124EAA1FE00B03AA7 /* qrcode.png in Resources */ = {isa = PBXBuildFile; fileRef = 04491EF724EAA1FD00B03AA7 /* qrcode.png */; };
+		04491F1224EAA1FE00B03AA7 /* justifyContent.xml in Resources */ = {isa = PBXBuildFile; fileRef = 04491EF824EAA1FD00B03AA7 /* justifyContent.xml */; };
+		04491F1324EAA1FE00B03AA7 /* TestLoginVC.xml in Resources */ = {isa = PBXBuildFile; fileRef = 04491EF924EAA1FD00B03AA7 /* TestLoginVC.xml */; };
+		04491F1424EAA1FE00B03AA7 /* TestTableVC.xml in Resources */ = {isa = PBXBuildFile; fileRef = 04491EFA24EAA1FD00B03AA7 /* TestTableVC.xml */; };
+		C0AC253523E174A0A801AEAB /* libPods-MMFlexboxDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83DED15D4AA7626A52238C80 /* libPods-MMFlexboxDemoTests.a */; };
+		DDA980DDF0E97B9ABB9B1E79 /* libPods-MMFlexboxDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 753BB38277A0805E3B690960 /* libPods-MMFlexboxDemo.a */; };
+		E9FA08E5D36652A831EC1FD4 /* libPods-MMFlexboxDemo-MMFlexboxDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 256CC5EB54021519F84AB521 /* libPods-MMFlexboxDemo-MMFlexboxDemoUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04491DFE24EA9C1800B03AA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04491DDA24EA9C1700B03AA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04491DE124EA9C1700B03AA7;
+			remoteInfo = MMFlexboxDemo;
+		};
+		04491E0924EA9C1800B03AA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04491DDA24EA9C1700B03AA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04491DE124EA9C1700B03AA7;
+			remoteInfo = MMFlexboxDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04491DE224EA9C1700B03AA7 /* MMFlexboxDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMFlexboxDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04491DE524EA9C1700B03AA7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04491DE624EA9C1700B03AA7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04491DE824EA9C1700B03AA7 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		04491DE924EA9C1700B03AA7 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		04491DEB24EA9C1700B03AA7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04491DEC24EA9C1700B03AA7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04491DEF24EA9C1700B03AA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04491DF124EA9C1800B03AA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04491DF424EA9C1800B03AA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04491DF624EA9C1800B03AA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04491DF724EA9C1800B03AA7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04491DFD24EA9C1800B03AA7 /* MMFlexboxDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMFlexboxDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04491E0124EA9C1800B03AA7 /* MMFlexboxDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMFlexboxDemoTests.m; sourceTree = "<group>"; };
+		04491E0324EA9C1800B03AA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04491E0824EA9C1800B03AA7 /* MMFlexboxDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMFlexboxDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04491E0C24EA9C1800B03AA7 /* MMFlexboxDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMFlexboxDemoUITests.m; sourceTree = "<group>"; };
+		04491E0E24EA9C1800B03AA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04491E1C24EA9D4200B03AA7 /* FlexRootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlexRootView.h; sourceTree = "<group>"; };
+		04491E1D24EA9D4200B03AA7 /* FlexSetPreviewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlexSetPreviewVC.h; sourceTree = "<group>"; };
+		04491E1E24EA9D4200B03AA7 /* FlexTouchMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlexTouchMaskView.m; sourceTree = "<group>"; };
+		04491E1F24EA9D4200B03AA7 /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		04491E2024EA9D4200B03AA7 /* FlexStyleMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlexStyleMgr.m; sourceTree = "<group>"; };
+		04491E2124EA9D4200B03AA7 /* FlexBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlexBaseVC.m; sourceTree = "<group>"; };
+		04491E2224EA9D4200B03AA7 /* FlexUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlexUtils.h; sourceTree = "<group>"; };
+		04491E2324EA9D4200B03AA7 /* FlexBaseTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlexBaseTableCell.h; sourceTree = "<group>"; };
+		04491E2424EA9D4200B03AA7 /* FlexXmlBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlexXmlBaseView.h; sourceTree = "<group>"; };
+		04491E2524EA9D4200B03AA7 /* FlexTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlexTextView.m; sourceTree = "<group>"; };
+		04491E2624EA9D4200B03AA7 /* FlexFrameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlexFrameView.m; sourceTree = "<group>"; };
+		04491E2724EA9D4200B03AA7 /* FlexNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlexNode.m; sourceTree = "<group>"; };
+		04491E2924EA9D4200B03AA7 /* YGLayout+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YGLayout+Private.h"; sourceTree = "<group>"; };
+		04491E2A24EA9D4200B03AA7 /* YGLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGLayout.h; sourceTree = "<group>"; };
+		04491E2B24EA9D4200B03AA7 /* UIView+Yoga.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Yoga.h"; sourceTree = "<group>"; };
+		04491E2C24EA9D4200B03AA7 /* YGLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGLayout.m; sourceTree = "<group>"; };
+		04491E2D24EA9D4200B03AA7 /* UIView+Yoga.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Yoga.m"; sourceTree = "<group>"; };
+		04491E2E24EA9D4200B03AA7 /* FlexContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlexContainerView.m; sourceTree = "<group>"; };
+		04491E2F24EA9D4200B03AA7 /* FlexCustomBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlexCustomBaseView.h; sourceTree = "<group>"; };
+		04491E3024EA9D4300B03AA7 /* FlexCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlexCollectionView.m; sourceTree = "<group>"; };
+		04491E3124EA9D4300B03AA7 /* FlexScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlexScrollView.h; sourceTree = "<group>"; };
+		04491E3324EA9D4300B03AA7 /* FlexLayoutViewerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlexLayoutViewerVC.h; sourceTree = "<group>"; };
+		04491E3424EA9D4300B03AA7 /* FlexHttpVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlexHttpVC.h; sourceTree = "<group>"; };
+		04491E3524EA9D4300B03AA7 /* FlexModalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlexModalView.h; sourceTree = "<group>"; };
+		04491E3624EA9D4300B03AA7 /* FlexTouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlexTouchView.m; sourceTree = "<group>"; };
+		04491E3724EA9D4300B03AA7 /* FlexCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlexCollectionCell.m; sourceTree = "<group>"; };
+		04491E3824EA9D4300B03AA7 /* FlexFrameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlexFrameView.h; sourceTree = "<group>"; };
+		04491E3924EA9D4300B03AA7 /* FlexTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlexTextView.h; sourceTree = "<group>"; };
+		04491E3A24EA9D4300B03AA7 /* FlexXmlBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlexXmlBaseView.m; sourceTree = "<group>"; };
+		04491E3B24EA9D4300B03AA7 /* FlexBaseTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlexBaseTableCell.m; sourceTree = "<group>"; };
+		04491E3C24EA9D4300B03AA7 /* FlexUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlexUtils.m; sourceTree = "<group>"; };
+		04491E3D24EA9D4300B03AA7 /* FlexTouchMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlexTouchMaskView.h; sourceTree = "<group>"; };
+		04491E3E24EA9D4300B03AA7 /* FlexStyleMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlexStyleMgr.h; sourceTree = "<group>"; };
+		04491E3F24EA9D4300B03AA7 /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		04491E4024EA9D4300B03AA7 /* FlexBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlexBaseVC.h; sourceTree = "<group>"; };
+		04491E4124EA9D4300B03AA7 /* FlexSetPreviewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlexSetPreviewVC.m; sourceTree = "<group>"; };
+		04491E4224EA9D4300B03AA7 /* FlexRootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlexRootView.m; sourceTree = "<group>"; };
+		04491E4324EA9D4300B03AA7 /* FlexContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlexContainerView.h; sourceTree = "<group>"; };
+		04491E4524EA9D4300B03AA7 /* UITextView+Flex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Flex.h"; sourceTree = "<group>"; };
+		04491E4624EA9D4300B03AA7 /* UIProgressView+Flex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIProgressView+Flex.m"; sourceTree = "<group>"; };
+		04491E4724EA9D4300B03AA7 /* UIActivityIndicatorView+Flex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActivityIndicatorView+Flex.h"; sourceTree = "<group>"; };
+		04491E4824EA9D4300B03AA7 /* UIScrollView+Flex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+Flex.m"; sourceTree = "<group>"; };
+		04491E4924EA9D4300B03AA7 /* UISegmentedControl+Flex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISegmentedControl+Flex.h"; sourceTree = "<group>"; };
+		04491E4A24EA9D4300B03AA7 /* UITextField+Flex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Flex.m"; sourceTree = "<group>"; };
+		04491E4B24EA9D4300B03AA7 /* UIPickerView+Flex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPickerView+Flex.m"; sourceTree = "<group>"; };
+		04491E4C24EA9D4300B03AA7 /* UISwitch+Flex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISwitch+Flex.h"; sourceTree = "<group>"; };
+		04491E4D24EA9D4300B03AA7 /* UISearchBar+Flex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISearchBar+Flex.h"; sourceTree = "<group>"; };
+		04491E4E24EA9D4300B03AA7 /* UIDatePicker+Flex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDatePicker+Flex.m"; sourceTree = "<group>"; };
+		04491E4F24EA9D4300B03AA7 /* UIControl+Flex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+Flex.m"; sourceTree = "<group>"; };
+		04491E5024EA9D4300B03AA7 /* UIToolbar+Flex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIToolbar+Flex.m"; sourceTree = "<group>"; };
+		04491E5124EA9D4300B03AA7 /* UIView+Flex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Flex.h"; sourceTree = "<group>"; };
+		04491E5224EA9D4300B03AA7 /* UITabBar+Flex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+Flex.h"; sourceTree = "<group>"; };
+		04491E5324EA9D4300B03AA7 /* UISlider+Flex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISlider+Flex.h"; sourceTree = "<group>"; };
+		04491E5424EA9D4400B03AA7 /* UIImageView+Flex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Flex.m"; sourceTree = "<group>"; };
+		04491E5524EA9D4400B03AA7 /* UILabel+Flex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Flex.m"; sourceTree = "<group>"; };
+		04491E5624EA9D4400B03AA7 /* UIButton+Flex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Flex.m"; sourceTree = "<group>"; };
+		04491E5724EA9D4400B03AA7 /* UIPageControl+Flex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPageControl+Flex.h"; sourceTree = "<group>"; };
+		04491E5824EA9D4400B03AA7 /* UIStepper+Flex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIStepper+Flex.h"; sourceTree = "<group>"; };
+		04491E5924EA9D4400B03AA7 /* UIDatePicker+Flex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDatePicker+Flex.h"; sourceTree = "<group>"; };
+		04491E5A24EA9D4400B03AA7 /* UISearchBar+Flex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISearchBar+Flex.m"; sourceTree = "<group>"; };
+		04491E5B24EA9D4400B03AA7 /* UISwitch+Flex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISwitch+Flex.m"; sourceTree = "<group>"; };
+		04491E5C24EA9D4400B03AA7 /* UIPickerView+Flex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPickerView+Flex.h"; sourceTree = "<group>"; };
+		04491E5D24EA9D4400B03AA7 /* UITextField+Flex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Flex.h"; sourceTree = "<group>"; };
+		04491E5E24EA9D4400B03AA7 /* UISegmentedControl+Flex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISegmentedControl+Flex.m"; sourceTree = "<group>"; };
+		04491E5F24EA9D4400B03AA7 /* UIScrollView+Flex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+Flex.h"; sourceTree = "<group>"; };
+		04491E6024EA9D4400B03AA7 /* UIActivityIndicatorView+Flex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActivityIndicatorView+Flex.m"; sourceTree = "<group>"; };
+		04491E6124EA9D4400B03AA7 /* UIProgressView+Flex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIProgressView+Flex.h"; sourceTree = "<group>"; };
+		04491E6224EA9D4400B03AA7 /* UITextView+Flex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Flex.m"; sourceTree = "<group>"; };
+		04491E6324EA9D4400B03AA7 /* UITabBar+Flex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+Flex.m"; sourceTree = "<group>"; };
+		04491E6424EA9D4400B03AA7 /* UIToolbar+Flex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIToolbar+Flex.h"; sourceTree = "<group>"; };
+		04491E6524EA9D4400B03AA7 /* UIView+Flex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Flex.m"; sourceTree = "<group>"; };
+		04491E6624EA9D4400B03AA7 /* UIControl+Flex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+Flex.h"; sourceTree = "<group>"; };
+		04491E6724EA9D4400B03AA7 /* UIImageView+Flex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Flex.h"; sourceTree = "<group>"; };
+		04491E6824EA9D4400B03AA7 /* UISlider+Flex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISlider+Flex.m"; sourceTree = "<group>"; };
+		04491E6924EA9D4400B03AA7 /* UIStepper+Flex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIStepper+Flex.m"; sourceTree = "<group>"; };
+		04491E6A24EA9D4400B03AA7 /* UIPageControl+Flex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPageControl+Flex.m"; sourceTree = "<group>"; };
+		04491E6B24EA9D4400B03AA7 /* UIButton+Flex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Flex.h"; sourceTree = "<group>"; };
+		04491E6C24EA9D4400B03AA7 /* UILabel+Flex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Flex.h"; sourceTree = "<group>"; };
+		04491E6D24EA9D4400B03AA7 /* FlexNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlexNode.h; sourceTree = "<group>"; };
+		04491E6E24EA9D4400B03AA7 /* FlexTouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlexTouchView.h; sourceTree = "<group>"; };
+		04491E6F24EA9D4400B03AA7 /* FlexHttpVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlexHttpVC.m; sourceTree = "<group>"; };
+		04491E7024EA9D4400B03AA7 /* FlexModalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlexModalView.m; sourceTree = "<group>"; };
+		04491E7124EA9D4400B03AA7 /* FlexLayoutViewerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlexLayoutViewerVC.m; sourceTree = "<group>"; };
+		04491E7224EA9D4400B03AA7 /* FlexScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlexScrollView.m; sourceTree = "<group>"; };
+		04491E7324EA9D4400B03AA7 /* FlexLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlexLib.h; sourceTree = "<group>"; };
+		04491E7424EA9D4400B03AA7 /* FlexCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlexCollectionView.h; sourceTree = "<group>"; };
+		04491E7524EA9D4400B03AA7 /* FlexCustomBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlexCustomBaseView.m; sourceTree = "<group>"; };
+		04491E7624EA9D4400B03AA7 /* FlexCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlexCollectionCell.h; sourceTree = "<group>"; };
+		04491E7924EA9D4400B03AA7 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		04491E7A24EA9D4400B03AA7 /* FlexLayoutViewerVC.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = FlexLayoutViewerVC.xml; sourceTree = "<group>"; };
+		04491E7B24EA9D4400B03AA7 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		04491E7C24EA9D4400B03AA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		04491E7D24EA9D4500B03AA7 /* FlexHttpVC.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = FlexHttpVC.xml; sourceTree = "<group>"; };
+		04491E7E24EA9D4500B03AA7 /* FlexSetPreviewVC.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = FlexSetPreviewVC.xml; sourceTree = "<group>"; };
+		04491EB024EAA15B00B03AA7 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		04491EB324EAA1D200B03AA7 /* TestCollectionViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCollectionViewVC.m; sourceTree = "<group>"; };
+		04491EB424EAA1D300B03AA7 /* DemoFlexVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoFlexVC.m; sourceTree = "<group>"; };
+		04491EB524EAA1D400B03AA7 /* TestFrameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestFrameView.m; sourceTree = "<group>"; };
+		04491EB624EAA1D400B03AA7 /* TestTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableVC.h; sourceTree = "<group>"; };
+		04491EB724EAA1D400B03AA7 /* TestCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCollectionCell.h; sourceTree = "<group>"; };
+		04491EB824EAA1D400B03AA7 /* FrameVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrameVC.h; sourceTree = "<group>"; };
+		04491EB924EAA1D400B03AA7 /* TextViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewVC.m; sourceTree = "<group>"; };
+		04491EBA24EAA1D500B03AA7 /* TestModalVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestModalVC.h; sourceTree = "<group>"; };
+		04491EBB24EAA1D500B03AA7 /* TestLoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestLoginVC.h; sourceTree = "<group>"; };
+		04491EBC24EAA1D500B03AA7 /* TestTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableCell.h; sourceTree = "<group>"; };
+		04491EBD24EAA1D500B03AA7 /* TestCollectionViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCollectionViewVC.h; sourceTree = "<group>"; };
+		04491EBE24EAA1D600B03AA7 /* TestLoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestLoginVC.m; sourceTree = "<group>"; };
+		04491EBF24EAA1D600B03AA7 /* TestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestVC.h; sourceTree = "<group>"; };
+		04491EC024EAA1D600B03AA7 /* ControlsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlsVC.h; sourceTree = "<group>"; };
+		04491EC124EAA1D600B03AA7 /* TestTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableCell.m; sourceTree = "<group>"; };
+		04491EC224EAA1D600B03AA7 /* TestXmlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestXmlView.h; sourceTree = "<group>"; };
+		04491EC324EAA1D700B03AA7 /* AttachmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttachmentView.m; sourceTree = "<group>"; };
+		04491EC424EAA1D700B03AA7 /* TestCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCollectionCell.m; sourceTree = "<group>"; };
+		04491EC524EAA1D700B03AA7 /* TestModalVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestModalVC.m; sourceTree = "<group>"; };
+		04491EC624EAA1D700B03AA7 /* TextViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewVC.h; sourceTree = "<group>"; };
+		04491EC724EAA1D800B03AA7 /* TestTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableVC.m; sourceTree = "<group>"; };
+		04491EC824EAA1D800B03AA7 /* TestScrollVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestScrollVC.m; sourceTree = "<group>"; };
+		04491EC924EAA1D800B03AA7 /* FrameVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrameVC.m; sourceTree = "<group>"; };
+		04491ECA24EAA1D800B03AA7 /* DemoFlexVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoFlexVC.h; sourceTree = "<group>"; };
+		04491ECB24EAA1D900B03AA7 /* AttachmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttachmentView.h; sourceTree = "<group>"; };
+		04491ECC24EAA1D900B03AA7 /* ControlsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControlsVC.m; sourceTree = "<group>"; };
+		04491ECD24EAA1D900B03AA7 /* TestFrameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFrameView.h; sourceTree = "<group>"; };
+		04491ECE24EAA1DA00B03AA7 /* TestScrollVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestScrollVC.h; sourceTree = "<group>"; };
+		04491ECF24EAA1DA00B03AA7 /* TestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestVC.m; sourceTree = "<group>"; };
+		04491ED024EAA1DA00B03AA7 /* TestXmlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestXmlView.m; sourceTree = "<group>"; };
+		04491EE124EAA1F700B03AA7 /* TestTableCell.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TestTableCell.xml; sourceTree = "<group>"; };
+		04491EE224EAA1F700B03AA7 /* TestCollectionCell.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TestCollectionCell.xml; sourceTree = "<group>"; };
+		04491EE324EAA1F700B03AA7 /* addnewtype@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "addnewtype@2x.png"; sourceTree = "<group>"; };
+		04491EE424EAA1F800B03AA7 /* TestModalVC.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TestModalVC.xml; sourceTree = "<group>"; };
+		04491EE524EAA1F800B03AA7 /* TestFrameView.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TestFrameView.xml; sourceTree = "<group>"; };
+		04491EE624EAA1F900B03AA7 /* test.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = test.xml; sourceTree = "<group>"; };
+		04491EE724EAA1F900B03AA7 /* batchcheck@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "batchcheck@2x.png"; sourceTree = "<group>"; };
+		04491EE824EAA1F900B03AA7 /* ControlsVC.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ControlsVC.xml; sourceTree = "<group>"; };
+		04491EE924EAA1FA00B03AA7 /* select@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "select@2x.png"; sourceTree = "<group>"; };
+		04491EEA24EAA1FA00B03AA7 /* FlexViewController.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = FlexViewController.xml; sourceTree = "<group>"; };
+		04491EEB24EAA1FA00B03AA7 /* arrow_right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow_right@2x.png"; sourceTree = "<group>"; };
+		04491EEC24EAA1FA00B03AA7 /* AttachmentView.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = AttachmentView.xml; sourceTree = "<group>"; };
+		04491EED24EAA1FA00B03AA7 /* TestXmlView.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TestXmlView.xml; sourceTree = "<group>"; };
+		04491EEE24EAA1FB00B03AA7 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
+		04491EEF24EAA1FB00B03AA7 /* TestCollectionViewVC.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TestCollectionViewVC.xml; sourceTree = "<group>"; };
+		04491EF024EAA1FB00B03AA7 /* TextViewVC.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TextViewVC.xml; sourceTree = "<group>"; };
+		04491EF124EAA1FB00B03AA7 /* TableHeader.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TableHeader.xml; sourceTree = "<group>"; };
+		04491EF224EAA1FB00B03AA7 /* return@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "return@2x.png"; sourceTree = "<group>"; };
+		04491EF324EAA1FC00B03AA7 /* FrameVC.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = FrameVC.xml; sourceTree = "<group>"; };
+		04491EF424EAA1FC00B03AA7 /* TestScrollVC.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TestScrollVC.xml; sourceTree = "<group>"; };
+		04491EF524EAA1FC00B03AA7 /* alignItems.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = alignItems.xml; sourceTree = "<group>"; };
+		04491EF624EAA1FD00B03AA7 /* system.style */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = system.style; sourceTree = "<group>"; };
+		04491EF724EAA1FD00B03AA7 /* qrcode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qrcode.png; sourceTree = "<group>"; };
+		04491EF824EAA1FD00B03AA7 /* justifyContent.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = justifyContent.xml; sourceTree = "<group>"; };
+		04491EF924EAA1FD00B03AA7 /* TestLoginVC.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TestLoginVC.xml; sourceTree = "<group>"; };
+		04491EFA24EAA1FD00B03AA7 /* TestTableVC.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TestTableVC.xml; sourceTree = "<group>"; };
+		10B8CDCEB12AF111D924F911 /* Pods-MMFlexboxDemo-MMFlexboxDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMFlexboxDemo-MMFlexboxDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-MMFlexboxDemo-MMFlexboxDemoUITests/Pods-MMFlexboxDemo-MMFlexboxDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		256CC5EB54021519F84AB521 /* libPods-MMFlexboxDemo-MMFlexboxDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MMFlexboxDemo-MMFlexboxDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73E59630F42811B3AB87EED6 /* Pods-MMFlexboxDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMFlexboxDemo.release.xcconfig"; path = "Target Support Files/Pods-MMFlexboxDemo/Pods-MMFlexboxDemo.release.xcconfig"; sourceTree = "<group>"; };
+		753BB38277A0805E3B690960 /* libPods-MMFlexboxDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MMFlexboxDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83DED15D4AA7626A52238C80 /* libPods-MMFlexboxDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MMFlexboxDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91BBF8B812CCAF5B5F8DC915 /* Pods-MMFlexboxDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMFlexboxDemoTests.release.xcconfig"; path = "Target Support Files/Pods-MMFlexboxDemoTests/Pods-MMFlexboxDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		BFD334CE6E019802B9A6ED89 /* Pods-MMFlexboxDemo-MMFlexboxDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMFlexboxDemo-MMFlexboxDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-MMFlexboxDemo-MMFlexboxDemoUITests/Pods-MMFlexboxDemo-MMFlexboxDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F5CC530E1102718D1A35DC4D /* Pods-MMFlexboxDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMFlexboxDemo.debug.xcconfig"; path = "Target Support Files/Pods-MMFlexboxDemo/Pods-MMFlexboxDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		FC03240DAB3D30AF9D002929 /* Pods-MMFlexboxDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMFlexboxDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-MMFlexboxDemoTests/Pods-MMFlexboxDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04491DDF24EA9C1700B03AA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04491EB124EAA15C00B03AA7 /* libc++.tbd in Frameworks */,
+				DDA980DDF0E97B9ABB9B1E79 /* libPods-MMFlexboxDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04491DFA24EA9C1800B03AA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0AC253523E174A0A801AEAB /* libPods-MMFlexboxDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04491E0524EA9C1800B03AA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9FA08E5D36652A831EC1FD4 /* libPods-MMFlexboxDemo-MMFlexboxDemoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04491DD924EA9C1700B03AA7 = {
+			isa = PBXGroup;
+			children = (
+				04491DE424EA9C1700B03AA7 /* MMFlexboxDemo */,
+				04491E0024EA9C1800B03AA7 /* MMFlexboxDemoTests */,
+				04491E0B24EA9C1800B03AA7 /* MMFlexboxDemoUITests */,
+				04491DE324EA9C1700B03AA7 /* Products */,
+				EC07A6414992BE25E5A84533 /* Pods */,
+				281B1E110017482BC123BF0A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04491DE324EA9C1700B03AA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04491DE224EA9C1700B03AA7 /* MMFlexboxDemo.app */,
+				04491DFD24EA9C1800B03AA7 /* MMFlexboxDemoTests.xctest */,
+				04491E0824EA9C1800B03AA7 /* MMFlexboxDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04491DE424EA9C1700B03AA7 /* MMFlexboxDemo */ = {
+			isa = PBXGroup;
+			children = (
+				04491E1A24EA9D4200B03AA7 /* MMFlexbox */,
+				04491DE524EA9C1700B03AA7 /* AppDelegate.h */,
+				04491DE624EA9C1700B03AA7 /* AppDelegate.m */,
+				04491EE024EAA1E400B03AA7 /* XML */,
+				04491EB224EAA1A900B03AA7 /* Example */,
+				04491DE824EA9C1700B03AA7 /* SceneDelegate.h */,
+				04491DE924EA9C1700B03AA7 /* SceneDelegate.m */,
+				04491DEB24EA9C1700B03AA7 /* ViewController.h */,
+				04491DEC24EA9C1700B03AA7 /* ViewController.m */,
+				04491DEE24EA9C1700B03AA7 /* Main.storyboard */,
+				04491DF124EA9C1800B03AA7 /* Assets.xcassets */,
+				04491DF324EA9C1800B03AA7 /* LaunchScreen.storyboard */,
+				04491DF624EA9C1800B03AA7 /* Info.plist */,
+				04491DF724EA9C1800B03AA7 /* main.m */,
+			);
+			path = MMFlexboxDemo;
+			sourceTree = "<group>";
+		};
+		04491E0024EA9C1800B03AA7 /* MMFlexboxDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				04491E0124EA9C1800B03AA7 /* MMFlexboxDemoTests.m */,
+				04491E0324EA9C1800B03AA7 /* Info.plist */,
+			);
+			path = MMFlexboxDemoTests;
+			sourceTree = "<group>";
+		};
+		04491E0B24EA9C1800B03AA7 /* MMFlexboxDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04491E0C24EA9C1800B03AA7 /* MMFlexboxDemoUITests.m */,
+				04491E0E24EA9C1800B03AA7 /* Info.plist */,
+			);
+			path = MMFlexboxDemoUITests;
+			sourceTree = "<group>";
+		};
+		04491E1A24EA9D4200B03AA7 /* MMFlexbox */ = {
+			isa = PBXGroup;
+			children = (
+				04491E1B24EA9D4200B03AA7 /* Classes */,
+				04491E7724EA9D4400B03AA7 /* Assets */,
+			);
+			name = MMFlexbox;
+			path = ../../MMFlexbox;
+			sourceTree = "<group>";
+		};
+		04491E1B24EA9D4200B03AA7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				04491E1C24EA9D4200B03AA7 /* FlexRootView.h */,
+				04491E1D24EA9D4200B03AA7 /* FlexSetPreviewVC.h */,
+				04491E1E24EA9D4200B03AA7 /* FlexTouchMaskView.m */,
+				04491E1F24EA9D4200B03AA7 /* GDataXMLNode.h */,
+				04491E2024EA9D4200B03AA7 /* FlexStyleMgr.m */,
+				04491E2124EA9D4200B03AA7 /* FlexBaseVC.m */,
+				04491E2224EA9D4200B03AA7 /* FlexUtils.h */,
+				04491E2324EA9D4200B03AA7 /* FlexBaseTableCell.h */,
+				04491E2424EA9D4200B03AA7 /* FlexXmlBaseView.h */,
+				04491E2524EA9D4200B03AA7 /* FlexTextView.m */,
+				04491E2624EA9D4200B03AA7 /* FlexFrameView.m */,
+				04491E2724EA9D4200B03AA7 /* FlexNode.m */,
+				04491E2824EA9D4200B03AA7 /* YogaKit */,
+				04491E2E24EA9D4200B03AA7 /* FlexContainerView.m */,
+				04491E2F24EA9D4200B03AA7 /* FlexCustomBaseView.h */,
+				04491E3024EA9D4300B03AA7 /* FlexCollectionView.m */,
+				04491E3124EA9D4300B03AA7 /* FlexScrollView.h */,
+				04491E3324EA9D4300B03AA7 /* FlexLayoutViewerVC.h */,
+				04491E3424EA9D4300B03AA7 /* FlexHttpVC.h */,
+				04491E3524EA9D4300B03AA7 /* FlexModalView.h */,
+				04491E3624EA9D4300B03AA7 /* FlexTouchView.m */,
+				04491E3724EA9D4300B03AA7 /* FlexCollectionCell.m */,
+				04491E3824EA9D4300B03AA7 /* FlexFrameView.h */,
+				04491E3924EA9D4300B03AA7 /* FlexTextView.h */,
+				04491E3A24EA9D4300B03AA7 /* FlexXmlBaseView.m */,
+				04491E3B24EA9D4300B03AA7 /* FlexBaseTableCell.m */,
+				04491E3C24EA9D4300B03AA7 /* FlexUtils.m */,
+				04491E3D24EA9D4300B03AA7 /* FlexTouchMaskView.h */,
+				04491E3E24EA9D4300B03AA7 /* FlexStyleMgr.h */,
+				04491E3F24EA9D4300B03AA7 /* GDataXMLNode.m */,
+				04491E4024EA9D4300B03AA7 /* FlexBaseVC.h */,
+				04491E4124EA9D4300B03AA7 /* FlexSetPreviewVC.m */,
+				04491E4224EA9D4300B03AA7 /* FlexRootView.m */,
+				04491E4324EA9D4300B03AA7 /* FlexContainerView.h */,
+				04491E4424EA9D4300B03AA7 /* ViewExt */,
+				04491E6D24EA9D4400B03AA7 /* FlexNode.h */,
+				04491E6E24EA9D4400B03AA7 /* FlexTouchView.h */,
+				04491E6F24EA9D4400B03AA7 /* FlexHttpVC.m */,
+				04491E7024EA9D4400B03AA7 /* FlexModalView.m */,
+				04491E7124EA9D4400B03AA7 /* FlexLayoutViewerVC.m */,
+				04491E7224EA9D4400B03AA7 /* FlexScrollView.m */,
+				04491E7324EA9D4400B03AA7 /* FlexLib.h */,
+				04491E7424EA9D4400B03AA7 /* FlexCollectionView.h */,
+				04491E7524EA9D4400B03AA7 /* FlexCustomBaseView.m */,
+				04491E7624EA9D4400B03AA7 /* FlexCollectionCell.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		04491E2824EA9D4200B03AA7 /* YogaKit */ = {
+			isa = PBXGroup;
+			children = (
+				04491E2924EA9D4200B03AA7 /* YGLayout+Private.h */,
+				04491E2A24EA9D4200B03AA7 /* YGLayout.h */,
+				04491E2B24EA9D4200B03AA7 /* UIView+Yoga.h */,
+				04491E2C24EA9D4200B03AA7 /* YGLayout.m */,
+				04491E2D24EA9D4200B03AA7 /* UIView+Yoga.m */,
+			);
+			path = YogaKit;
+			sourceTree = "<group>";
+		};
+		04491E4424EA9D4300B03AA7 /* ViewExt */ = {
+			isa = PBXGroup;
+			children = (
+				04491E4524EA9D4300B03AA7 /* UITextView+Flex.h */,
+				04491E4624EA9D4300B03AA7 /* UIProgressView+Flex.m */,
+				04491E4724EA9D4300B03AA7 /* UIActivityIndicatorView+Flex.h */,
+				04491E4824EA9D4300B03AA7 /* UIScrollView+Flex.m */,
+				04491E4924EA9D4300B03AA7 /* UISegmentedControl+Flex.h */,
+				04491E4A24EA9D4300B03AA7 /* UITextField+Flex.m */,
+				04491E4B24EA9D4300B03AA7 /* UIPickerView+Flex.m */,
+				04491E4C24EA9D4300B03AA7 /* UISwitch+Flex.h */,
+				04491E4D24EA9D4300B03AA7 /* UISearchBar+Flex.h */,
+				04491E4E24EA9D4300B03AA7 /* UIDatePicker+Flex.m */,
+				04491E4F24EA9D4300B03AA7 /* UIControl+Flex.m */,
+				04491E5024EA9D4300B03AA7 /* UIToolbar+Flex.m */,
+				04491E5124EA9D4300B03AA7 /* UIView+Flex.h */,
+				04491E5224EA9D4300B03AA7 /* UITabBar+Flex.h */,
+				04491E5324EA9D4300B03AA7 /* UISlider+Flex.h */,
+				04491E5424EA9D4400B03AA7 /* UIImageView+Flex.m */,
+				04491E5524EA9D4400B03AA7 /* UILabel+Flex.m */,
+				04491E5624EA9D4400B03AA7 /* UIButton+Flex.m */,
+				04491E5724EA9D4400B03AA7 /* UIPageControl+Flex.h */,
+				04491E5824EA9D4400B03AA7 /* UIStepper+Flex.h */,
+				04491E5924EA9D4400B03AA7 /* UIDatePicker+Flex.h */,
+				04491E5A24EA9D4400B03AA7 /* UISearchBar+Flex.m */,
+				04491E5B24EA9D4400B03AA7 /* UISwitch+Flex.m */,
+				04491E5C24EA9D4400B03AA7 /* UIPickerView+Flex.h */,
+				04491E5D24EA9D4400B03AA7 /* UITextField+Flex.h */,
+				04491E5E24EA9D4400B03AA7 /* UISegmentedControl+Flex.m */,
+				04491E5F24EA9D4400B03AA7 /* UIScrollView+Flex.h */,
+				04491E6024EA9D4400B03AA7 /* UIActivityIndicatorView+Flex.m */,
+				04491E6124EA9D4400B03AA7 /* UIProgressView+Flex.h */,
+				04491E6224EA9D4400B03AA7 /* UITextView+Flex.m */,
+				04491E6324EA9D4400B03AA7 /* UITabBar+Flex.m */,
+				04491E6424EA9D4400B03AA7 /* UIToolbar+Flex.h */,
+				04491E6524EA9D4400B03AA7 /* UIView+Flex.m */,
+				04491E6624EA9D4400B03AA7 /* UIControl+Flex.h */,
+				04491E6724EA9D4400B03AA7 /* UIImageView+Flex.h */,
+				04491E6824EA9D4400B03AA7 /* UISlider+Flex.m */,
+				04491E6924EA9D4400B03AA7 /* UIStepper+Flex.m */,
+				04491E6A24EA9D4400B03AA7 /* UIPageControl+Flex.m */,
+				04491E6B24EA9D4400B03AA7 /* UIButton+Flex.h */,
+				04491E6C24EA9D4400B03AA7 /* UILabel+Flex.h */,
+			);
+			path = ViewExt;
+			sourceTree = "<group>";
+		};
+		04491E7724EA9D4400B03AA7 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				04491E7824EA9D4400B03AA7 /* Localizable.strings */,
+				04491E7A24EA9D4400B03AA7 /* FlexLayoutViewerVC.xml */,
+				04491E7B24EA9D4400B03AA7 /* .gitkeep */,
+				04491E7D24EA9D4500B03AA7 /* FlexHttpVC.xml */,
+				04491E7E24EA9D4500B03AA7 /* FlexSetPreviewVC.xml */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		04491EB224EAA1A900B03AA7 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				04491ECB24EAA1D900B03AA7 /* AttachmentView.h */,
+				04491EC324EAA1D700B03AA7 /* AttachmentView.m */,
+				04491EC024EAA1D600B03AA7 /* ControlsVC.h */,
+				04491ECC24EAA1D900B03AA7 /* ControlsVC.m */,
+				04491ECA24EAA1D800B03AA7 /* DemoFlexVC.h */,
+				04491EB424EAA1D300B03AA7 /* DemoFlexVC.m */,
+				04491EB824EAA1D400B03AA7 /* FrameVC.h */,
+				04491EC924EAA1D800B03AA7 /* FrameVC.m */,
+				04491EB724EAA1D400B03AA7 /* TestCollectionCell.h */,
+				04491EC424EAA1D700B03AA7 /* TestCollectionCell.m */,
+				04491EBD24EAA1D500B03AA7 /* TestCollectionViewVC.h */,
+				04491EB324EAA1D200B03AA7 /* TestCollectionViewVC.m */,
+				04491ECD24EAA1D900B03AA7 /* TestFrameView.h */,
+				04491EB524EAA1D400B03AA7 /* TestFrameView.m */,
+				04491EBB24EAA1D500B03AA7 /* TestLoginVC.h */,
+				04491EBE24EAA1D600B03AA7 /* TestLoginVC.m */,
+				04491EBA24EAA1D500B03AA7 /* TestModalVC.h */,
+				04491EC524EAA1D700B03AA7 /* TestModalVC.m */,
+				04491ECE24EAA1DA00B03AA7 /* TestScrollVC.h */,
+				04491EC824EAA1D800B03AA7 /* TestScrollVC.m */,
+				04491EBC24EAA1D500B03AA7 /* TestTableCell.h */,
+				04491EC124EAA1D600B03AA7 /* TestTableCell.m */,
+				04491EB624EAA1D400B03AA7 /* TestTableVC.h */,
+				04491EC724EAA1D800B03AA7 /* TestTableVC.m */,
+				04491EBF24EAA1D600B03AA7 /* TestVC.h */,
+				04491ECF24EAA1DA00B03AA7 /* TestVC.m */,
+				04491EC224EAA1D600B03AA7 /* TestXmlView.h */,
+				04491ED024EAA1DA00B03AA7 /* TestXmlView.m */,
+				04491EC624EAA1D700B03AA7 /* TextViewVC.h */,
+				04491EB924EAA1D400B03AA7 /* TextViewVC.m */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		04491EE024EAA1E400B03AA7 /* XML */ = {
+			isa = PBXGroup;
+			children = (
+				04491EE524EAA1F800B03AA7 /* TestFrameView.xml */,
+				04491EED24EAA1FA00B03AA7 /* TestXmlView.xml */,
+				04491EE224EAA1F700B03AA7 /* TestCollectionCell.xml */,
+				04491EEF24EAA1FB00B03AA7 /* TestCollectionViewVC.xml */,
+				04491EE824EAA1F900B03AA7 /* ControlsVC.xml */,
+				04491EEC24EAA1FA00B03AA7 /* AttachmentView.xml */,
+				04491EF124EAA1FB00B03AA7 /* TableHeader.xml */,
+				04491EE924EAA1FA00B03AA7 /* select@2x.png */,
+				04491EEE24EAA1FB00B03AA7 /* splash.png */,
+				04491EF724EAA1FD00B03AA7 /* qrcode.png */,
+				04491EF924EAA1FD00B03AA7 /* TestLoginVC.xml */,
+				04491EEB24EAA1FA00B03AA7 /* arrow_right@2x.png */,
+				04491EE324EAA1F700B03AA7 /* addnewtype@2x.png */,
+				04491EE724EAA1F900B03AA7 /* batchcheck@2x.png */,
+				04491EF224EAA1FB00B03AA7 /* return@2x.png */,
+				04491EF624EAA1FD00B03AA7 /* system.style */,
+				04491EF324EAA1FC00B03AA7 /* FrameVC.xml */,
+				04491EE624EAA1F900B03AA7 /* test.xml */,
+				04491EF024EAA1FB00B03AA7 /* TextViewVC.xml */,
+				04491EEA24EAA1FA00B03AA7 /* FlexViewController.xml */,
+				04491EF824EAA1FD00B03AA7 /* justifyContent.xml */,
+				04491EF524EAA1FC00B03AA7 /* alignItems.xml */,
+				04491EE424EAA1F800B03AA7 /* TestModalVC.xml */,
+				04491EE124EAA1F700B03AA7 /* TestTableCell.xml */,
+				04491EFA24EAA1FD00B03AA7 /* TestTableVC.xml */,
+				04491EF424EAA1FC00B03AA7 /* TestScrollVC.xml */,
+			);
+			path = XML;
+			sourceTree = "<group>";
+		};
+		281B1E110017482BC123BF0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04491EB024EAA15B00B03AA7 /* libc++.tbd */,
+				753BB38277A0805E3B690960 /* libPods-MMFlexboxDemo.a */,
+				256CC5EB54021519F84AB521 /* libPods-MMFlexboxDemo-MMFlexboxDemoUITests.a */,
+				83DED15D4AA7626A52238C80 /* libPods-MMFlexboxDemoTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC07A6414992BE25E5A84533 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5CC530E1102718D1A35DC4D /* Pods-MMFlexboxDemo.debug.xcconfig */,
+				73E59630F42811B3AB87EED6 /* Pods-MMFlexboxDemo.release.xcconfig */,
+				BFD334CE6E019802B9A6ED89 /* Pods-MMFlexboxDemo-MMFlexboxDemoUITests.debug.xcconfig */,
+				10B8CDCEB12AF111D924F911 /* Pods-MMFlexboxDemo-MMFlexboxDemoUITests.release.xcconfig */,
+				FC03240DAB3D30AF9D002929 /* Pods-MMFlexboxDemoTests.debug.xcconfig */,
+				91BBF8B812CCAF5B5F8DC915 /* Pods-MMFlexboxDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04491DE124EA9C1700B03AA7 /* MMFlexboxDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04491E1124EA9C1800B03AA7 /* Build configuration list for PBXNativeTarget "MMFlexboxDemo" */;
+			buildPhases = (
+				2CC6A656EBCB00126A462F3E /* [CP] Check Pods Manifest.lock */,
+				04491DDE24EA9C1700B03AA7 /* Sources */,
+				04491DDF24EA9C1700B03AA7 /* Frameworks */,
+				04491DE024EA9C1700B03AA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMFlexboxDemo;
+			productName = MMFlexboxDemo;
+			productReference = 04491DE224EA9C1700B03AA7 /* MMFlexboxDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04491DFC24EA9C1800B03AA7 /* MMFlexboxDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04491E1424EA9C1800B03AA7 /* Build configuration list for PBXNativeTarget "MMFlexboxDemoTests" */;
+			buildPhases = (
+				395330B20A923F16A205A3B4 /* [CP] Check Pods Manifest.lock */,
+				04491DF924EA9C1800B03AA7 /* Sources */,
+				04491DFA24EA9C1800B03AA7 /* Frameworks */,
+				04491DFB24EA9C1800B03AA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04491DFF24EA9C1800B03AA7 /* PBXTargetDependency */,
+			);
+			name = MMFlexboxDemoTests;
+			productName = MMFlexboxDemoTests;
+			productReference = 04491DFD24EA9C1800B03AA7 /* MMFlexboxDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04491E0724EA9C1800B03AA7 /* MMFlexboxDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04491E1724EA9C1800B03AA7 /* Build configuration list for PBXNativeTarget "MMFlexboxDemoUITests" */;
+			buildPhases = (
+				D2A504867B2FC92783CB8A50 /* [CP] Check Pods Manifest.lock */,
+				04491E0424EA9C1800B03AA7 /* Sources */,
+				04491E0524EA9C1800B03AA7 /* Frameworks */,
+				04491E0624EA9C1800B03AA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04491E0A24EA9C1800B03AA7 /* PBXTargetDependency */,
+			);
+			name = MMFlexboxDemoUITests;
+			productName = MMFlexboxDemoUITests;
+			productReference = 04491E0824EA9C1800B03AA7 /* MMFlexboxDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04491DDA24EA9C1700B03AA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = Huangzhenxiang;
+				TargetAttributes = {
+					04491DE124EA9C1700B03AA7 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					04491DFC24EA9C1800B03AA7 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 04491DE124EA9C1700B03AA7;
+					};
+					04491E0724EA9C1800B03AA7 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 04491DE124EA9C1700B03AA7;
+					};
+				};
+			};
+			buildConfigurationList = 04491DDD24EA9C1700B03AA7 /* Build configuration list for PBXProject "MMFlexboxDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 04491DD924EA9C1700B03AA7;
+			productRefGroup = 04491DE324EA9C1700B03AA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04491DE124EA9C1700B03AA7 /* MMFlexboxDemo */,
+				04491DFC24EA9C1800B03AA7 /* MMFlexboxDemoTests */,
+				04491E0724EA9C1800B03AA7 /* MMFlexboxDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04491DE024EA9C1700B03AA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04491F0F24EAA1FE00B03AA7 /* alignItems.xml in Resources */,
+				04491EFD24EAA1FE00B03AA7 /* addnewtype@2x.png in Resources */,
+				04491F0024EAA1FE00B03AA7 /* test.xml in Resources */,
+				04491F1324EAA1FE00B03AA7 /* TestLoginVC.xml in Resources */,
+				04491EAB24EA9D4500B03AA7 /* Localizable.strings in Resources */,
+				04491EFF24EAA1FE00B03AA7 /* TestFrameView.xml in Resources */,
+				04491DF524EA9C1800B03AA7 /* LaunchScreen.storyboard in Resources */,
+				04491F0924EAA1FE00B03AA7 /* TestCollectionViewVC.xml in Resources */,
+				04491F0A24EAA1FE00B03AA7 /* TextViewVC.xml in Resources */,
+				04491DF224EA9C1800B03AA7 /* Assets.xcassets in Resources */,
+				04491EFB24EAA1FE00B03AA7 /* TestTableCell.xml in Resources */,
+				04491F1024EAA1FE00B03AA7 /* system.style in Resources */,
+				04491F0424EAA1FE00B03AA7 /* FlexViewController.xml in Resources */,
+				04491F1424EAA1FE00B03AA7 /* TestTableVC.xml in Resources */,
+				04491F0B24EAA1FE00B03AA7 /* TableHeader.xml in Resources */,
+				04491F0824EAA1FE00B03AA7 /* splash.png in Resources */,
+				04491EAC24EA9D4500B03AA7 /* FlexLayoutViewerVC.xml in Resources */,
+				04491EFC24EAA1FE00B03AA7 /* TestCollectionCell.xml in Resources */,
+				04491F0524EAA1FE00B03AA7 /* arrow_right@2x.png in Resources */,
+				04491EAF24EA9D4500B03AA7 /* FlexSetPreviewVC.xml in Resources */,
+				04491F0224EAA1FE00B03AA7 /* ControlsVC.xml in Resources */,
+				04491F0624EAA1FE00B03AA7 /* AttachmentView.xml in Resources */,
+				04491F0D24EAA1FE00B03AA7 /* FrameVC.xml in Resources */,
+				04491EFE24EAA1FE00B03AA7 /* TestModalVC.xml in Resources */,
+				04491F0724EAA1FE00B03AA7 /* TestXmlView.xml in Resources */,
+				04491F0C24EAA1FE00B03AA7 /* return@2x.png in Resources */,
+				04491F0324EAA1FE00B03AA7 /* select@2x.png in Resources */,
+				04491F0E24EAA1FE00B03AA7 /* TestScrollVC.xml in Resources */,
+				04491F1224EAA1FE00B03AA7 /* justifyContent.xml in Resources */,
+				04491DF024EA9C1700B03AA7 /* Main.storyboard in Resources */,
+				04491F1124EAA1FE00B03AA7 /* qrcode.png in Resources */,
+				04491F0124EAA1FE00B03AA7 /* batchcheck@2x.png in Resources */,
+				04491EAE24EA9D4500B03AA7 /* FlexHttpVC.xml in Resources */,
+				04491EAD24EA9D4500B03AA7 /* .gitkeep in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04491DFB24EA9C1800B03AA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04491E0624EA9C1800B03AA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2CC6A656EBCB00126A462F3E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MMFlexboxDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		395330B20A923F16A205A3B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MMFlexboxDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2A504867B2FC92783CB8A50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MMFlexboxDemo-MMFlexboxDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04491DDE24EA9C1700B03AA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04491E9424EA9D4500B03AA7 /* UITextField+Flex.m in Sources */,
+				04491E9824EA9D4500B03AA7 /* UIToolbar+Flex.m in Sources */,
+				04491EA124EA9D4500B03AA7 /* UITabBar+Flex.m in Sources */,
+				04491E9624EA9D4500B03AA7 /* UIDatePicker+Flex.m in Sources */,
+				04491E8624EA9D4500B03AA7 /* UIView+Yoga.m in Sources */,
+				04491E8524EA9D4500B03AA7 /* YGLayout.m in Sources */,
+				04491E9E24EA9D4500B03AA7 /* UISegmentedControl+Flex.m in Sources */,
+				04491EAA24EA9D4500B03AA7 /* FlexCustomBaseView.m in Sources */,
+				04491EA624EA9D4500B03AA7 /* FlexHttpVC.m in Sources */,
+				04491EDB24EAA1DB00B03AA7 /* TestScrollVC.m in Sources */,
+				04491E8E24EA9D4500B03AA7 /* FlexUtils.m in Sources */,
+				04491EA724EA9D4500B03AA7 /* FlexModalView.m in Sources */,
+				04491E9024EA9D4500B03AA7 /* FlexSetPreviewVC.m in Sources */,
+				04491E9524EA9D4500B03AA7 /* UIPickerView+Flex.m in Sources */,
+				04491EA824EA9D4500B03AA7 /* FlexLayoutViewerVC.m in Sources */,
+				04491ED924EAA1DA00B03AA7 /* TestModalVC.m in Sources */,
+				04491E8224EA9D4500B03AA7 /* FlexTextView.m in Sources */,
+				04491E9724EA9D4500B03AA7 /* UIControl+Flex.m in Sources */,
+				04491DED24EA9C1700B03AA7 /* ViewController.m in Sources */,
+				04491ED124EAA1DA00B03AA7 /* TestCollectionViewVC.m in Sources */,
+				04491ED424EAA1DA00B03AA7 /* TextViewVC.m in Sources */,
+				04491E8424EA9D4500B03AA7 /* FlexNode.m in Sources */,
+				04491E8124EA9D4500B03AA7 /* FlexBaseVC.m in Sources */,
+				04491E9324EA9D4500B03AA7 /* UIScrollView+Flex.m in Sources */,
+				04491ED224EAA1DA00B03AA7 /* DemoFlexVC.m in Sources */,
+				04491E9224EA9D4500B03AA7 /* UIProgressView+Flex.m in Sources */,
+				04491E8D24EA9D4500B03AA7 /* FlexBaseTableCell.m in Sources */,
+				04491EDC24EAA1DB00B03AA7 /* FrameVC.m in Sources */,
+				04491DE724EA9C1700B03AA7 /* AppDelegate.m in Sources */,
+				04491E7F24EA9D4500B03AA7 /* FlexTouchMaskView.m in Sources */,
+				04491EA424EA9D4500B03AA7 /* UIStepper+Flex.m in Sources */,
+				04491E8324EA9D4500B03AA7 /* FlexFrameView.m in Sources */,
+				04491EA324EA9D4500B03AA7 /* UISlider+Flex.m in Sources */,
+				04491ED624EAA1DA00B03AA7 /* TestTableCell.m in Sources */,
+				04491ED524EAA1DA00B03AA7 /* TestLoginVC.m in Sources */,
+				04491E9A24EA9D4500B03AA7 /* UILabel+Flex.m in Sources */,
+				04491E8824EA9D4500B03AA7 /* FlexCollectionView.m in Sources */,
+				04491EDE24EAA1DB00B03AA7 /* TestVC.m in Sources */,
+				04491E9F24EA9D4500B03AA7 /* UIActivityIndicatorView+Flex.m in Sources */,
+				04491E8B24EA9D4500B03AA7 /* FlexCollectionCell.m in Sources */,
+				04491DF824EA9C1800B03AA7 /* main.m in Sources */,
+				04491EDD24EAA1DB00B03AA7 /* ControlsVC.m in Sources */,
+				04491ED724EAA1DA00B03AA7 /* AttachmentView.m in Sources */,
+				04491DEA24EA9C1700B03AA7 /* SceneDelegate.m in Sources */,
+				04491EA224EA9D4500B03AA7 /* UIView+Flex.m in Sources */,
+				04491E9924EA9D4500B03AA7 /* UIImageView+Flex.m in Sources */,
+				04491EDA24EAA1DA00B03AA7 /* TestTableVC.m in Sources */,
+				04491E8C24EA9D4500B03AA7 /* FlexXmlBaseView.m in Sources */,
+				04491E8024EA9D4500B03AA7 /* FlexStyleMgr.m in Sources */,
+				04491EA524EA9D4500B03AA7 /* UIPageControl+Flex.m in Sources */,
+				04491ED324EAA1DA00B03AA7 /* TestFrameView.m in Sources */,
+				04491ED824EAA1DA00B03AA7 /* TestCollectionCell.m in Sources */,
+				04491E8F24EA9D4500B03AA7 /* GDataXMLNode.m in Sources */,
+				04491EA924EA9D4500B03AA7 /* FlexScrollView.m in Sources */,
+				04491EDF24EAA1DB00B03AA7 /* TestXmlView.m in Sources */,
+				04491E8724EA9D4500B03AA7 /* FlexContainerView.m in Sources */,
+				04491E8A24EA9D4500B03AA7 /* FlexTouchView.m in Sources */,
+				04491E9D24EA9D4500B03AA7 /* UISwitch+Flex.m in Sources */,
+				04491E9B24EA9D4500B03AA7 /* UIButton+Flex.m in Sources */,
+				04491E9C24EA9D4500B03AA7 /* UISearchBar+Flex.m in Sources */,
+				04491EA024EA9D4500B03AA7 /* UITextView+Flex.m in Sources */,
+				04491E9124EA9D4500B03AA7 /* FlexRootView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04491DF924EA9C1800B03AA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04491E0224EA9C1800B03AA7 /* MMFlexboxDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04491E0424EA9C1800B03AA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04491E0D24EA9C1800B03AA7 /* MMFlexboxDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04491DFF24EA9C1800B03AA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04491DE124EA9C1700B03AA7 /* MMFlexboxDemo */;
+			targetProxy = 04491DFE24EA9C1800B03AA7 /* PBXContainerItemProxy */;
+		};
+		04491E0A24EA9C1800B03AA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04491DE124EA9C1700B03AA7 /* MMFlexboxDemo */;
+			targetProxy = 04491E0924EA9C1800B03AA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04491DEE24EA9C1700B03AA7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04491DEF24EA9C1700B03AA7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04491DF324EA9C1800B03AA7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04491DF424EA9C1800B03AA7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		04491E7824EA9D4400B03AA7 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04491E7924EA9D4400B03AA7 /* zh-Hans */,
+				04491E7C24EA9D4400B03AA7 /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04491E0F24EA9C1800B03AA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04491E1024EA9C1800B03AA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04491E1224EA9C1800B03AA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5CC530E1102718D1A35DC4D /* Pods-MMFlexboxDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MMFlexboxDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huyu.MMFlexboxDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04491E1324EA9C1800B03AA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73E59630F42811B3AB87EED6 /* Pods-MMFlexboxDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MMFlexboxDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huyu.MMFlexboxDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04491E1524EA9C1800B03AA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC03240DAB3D30AF9D002929 /* Pods-MMFlexboxDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MMFlexboxDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huyu.MMFlexboxDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MMFlexboxDemo.app/MMFlexboxDemo";
+			};
+			name = Debug;
+		};
+		04491E1624EA9C1800B03AA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91BBF8B812CCAF5B5F8DC915 /* Pods-MMFlexboxDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MMFlexboxDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huyu.MMFlexboxDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MMFlexboxDemo.app/MMFlexboxDemo";
+			};
+			name = Release;
+		};
+		04491E1824EA9C1800B03AA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFD334CE6E019802B9A6ED89 /* Pods-MMFlexboxDemo-MMFlexboxDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MMFlexboxDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huyu.MMFlexboxDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MMFlexboxDemo;
+			};
+			name = Debug;
+		};
+		04491E1924EA9C1800B03AA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10B8CDCEB12AF111D924F911 /* Pods-MMFlexboxDemo-MMFlexboxDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MMFlexboxDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huyu.MMFlexboxDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MMFlexboxDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04491DDD24EA9C1700B03AA7 /* Build configuration list for PBXProject "MMFlexboxDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04491E0F24EA9C1800B03AA7 /* Debug */,
+				04491E1024EA9C1800B03AA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04491E1124EA9C1800B03AA7 /* Build configuration list for PBXNativeTarget "MMFlexboxDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04491E1224EA9C1800B03AA7 /* Debug */,
+				04491E1324EA9C1800B03AA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04491E1424EA9C1800B03AA7 /* Build configuration list for PBXNativeTarget "MMFlexboxDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04491E1524EA9C1800B03AA7 /* Debug */,
+				04491E1624EA9C1800B03AA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04491E1724EA9C1800B03AA7 /* Build configuration list for PBXNativeTarget "MMFlexboxDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04491E1824EA9C1800B03AA7 /* Debug */,
+				04491E1924EA9C1800B03AA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04491DDA24EA9C1700B03AA7 /* Project object */;
+}
